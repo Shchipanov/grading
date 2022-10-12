@@ -49,6 +49,7 @@
   },
   "type": "module",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "gilp": "^0.0.10"
   }
 }
