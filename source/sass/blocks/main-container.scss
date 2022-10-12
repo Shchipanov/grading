@@ -1,0 +1,25 @@
+@import "./global/variables.scss";
+
+.main-container {
+  background-color: #ffffff;
+  color: #333333;
+  margin: 0 auto;
+}
+
+.main-container__map {
+  height: 420px;
+}
+
+// tablet-version
+@media (min-width: $tablet-width) {
+  .main-container__map {
+    height: 480px;
+  }
+}
+
+// desktop-version
+@media (min-width: $desktop-width) {
+  .main-container__map {
+    height: 540px;
+  }
+}
