@@ -38,7 +38,7 @@
   line-height: 24px;
   text-decoration: none;
   color: #7859cf;
-  padding: 8px 16px;
+  padding: 9px 16px 8px 15px;
   background-color: #ffffff;
   border-radius: 4px;
 
@@ -62,10 +62,11 @@
   }
 }
 
-.pagination__sub-item:nth-child(2) .pagination-number__link {
+.pagination__sub-item:nth-child(2) .pagination__sub-link {
   background-color: #f8f8f8;
   color: #333333;
   font-weight: 600;
+  padding: 9px 16px 8px 17px;
 
   &:hover {
     background-color: #9070ec;

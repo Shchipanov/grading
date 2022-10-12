@@ -5,7 +5,7 @@
 }
 
 .page__body {
-  width: 320px;
+  min-width: 320px;
   padding: 0;
   margin: 0 auto;
   font-family: "montserrat", "Arial", sans-serif;
@@ -19,18 +19,17 @@
 
 @media (min-width: $tablet-width) {
   .page__body {
-    width: 768px;
+    min-width: 768px;
   }
 }
 
 // desktop-version
 @media (min-width: $desktop-width) {
   .page {
-    width: 1440px;
     margin: auto;
   }
 
   .page__body {
-    width: 1440px;
+    min-width: 1440px;
   }
 }

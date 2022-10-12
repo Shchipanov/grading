@@ -1,7 +1,17 @@
 @import "./global/variables.scss";
 
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main-footer__wrapper {
   padding: 19px 20px 0;
+  max-width: 320px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .main-footer__logo__description {
@@ -34,7 +44,7 @@
 }
 
 .main-footer__copyright {
-  padding: 20px 57px 30px;
+  padding: 20px 0 30px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -69,10 +79,15 @@
 
   .main-footer__wrapper {
     padding: 39px 20px 0 20px;
+    max-width: 768px;
+    width: 768px;
   }
 
   .main-footer__copyright {
-    padding: 30px 281px 40px 281px;
+    padding: 30px 0 40px 0;
+    width: 768px;
+    display: flex;
+    justify-content: space-around;
   }
 }
 
@@ -82,6 +97,8 @@
     padding: 40px 40px 0 40px;
     display: flex;
     justify-content: flex-start;
+    width: 1440px;
+    max-width: 1440px;
   }
 
   .main-footer__top {
@@ -100,7 +117,8 @@
   }
 
   .main-footer__copyright {
-    padding: 20px 617px 40px 617px;
+    padding: 20px 0 40px 0;
+    width: 1440px;
   }
 
   .main-footer__social {

@@ -9,6 +9,8 @@
   box-sizing: border-box;
   background: #ffffff;
   z-index: 2;
+  max-width: 320px;
+  margin: 0 auto;
 }
 
 
@@ -90,6 +92,7 @@
     padding: 22px 20px 17px;
     max-height: 80px;
     box-sizing: border-box;
+    max-width: 768px;
   }
 
   .main-header__toggle {
@@ -101,5 +104,6 @@
 @media (min-width: $desktop-width) {
   .main-header {
     padding: 22px 40px;
+    max-width: 1440px;
   }
 }

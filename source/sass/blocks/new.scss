@@ -1,5 +1,9 @@
 @import "./global/variables.scss";
 
+.new {
+  background-color: #f3ebe1;
+}
+
 .new__list {
   text-align: center;
   padding: 0;
@@ -68,6 +72,12 @@
   left: 0;
   top: -652px;
   width: 20px;
+}
+
+.new__wrapper {
+  max-width: 320px;
+  position: relative;
+  margin: 0 auto;
 }
 
 // mobile-only-version
@@ -140,6 +150,10 @@
   .new__legend {
     margin-bottom: 3px;
   }
+
+  .new__wrapper {
+    max-width: 768px;
+  }
 }
 
 // desktop-version
@@ -205,5 +219,9 @@
   .new__wrapper-picture {
     order: 0;
     padding-left: 24px;
+  }
+
+  .new__wrapper {
+    max-width: 1440px;
   }
 }
