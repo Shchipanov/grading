@@ -65,11 +65,11 @@
   }
 }
 
-.range__input::-webkit-outer-spin-button,
-.range__input::-webkit-inner-spin-button {
-  appearance: none;
-  margin: 0;
-}
+// .range__input::-webkit-outer-spin-button,
+// .range__input::-webkit-inner-spin-button {
+//   appearance: none;
+//   margin: 0;
+// }
 
 // tablet-version
 @media (min-width: $tablet-width) {
