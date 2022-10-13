@@ -70,6 +70,11 @@
       padding-bottom: 290px;
     }
   }
+
+  .main-nav__list:last-child {
+    width: 200px;
+    justify-content: flex-end;
+  }
 }
 
 // tablet-version
@@ -77,6 +82,7 @@
   .main-nav {
     display: flex;
     align-items: center;
+    padding-top: 5px;
 
     .main-nav__list {
       padding-right: 60px;

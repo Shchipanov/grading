@@ -19,6 +19,7 @@
   .main-header {
     box-sizing: border-box;
     flex-direction: column;
+    min-height: 60px;
   }
 
   .main-header__logo {
@@ -89,8 +90,8 @@
 // tablet-version
 @media (min-width: $tablet-width) {
   .main-header {
-    padding: 22px 20px 17px;
-    max-height: 80px;
+    padding: 0 20px;
+    min-height: 80px;
     box-sizing: border-box;
     max-width: 768px;
   }
@@ -98,12 +99,16 @@
   .main-header__toggle {
     display: none;
   }
+
+  .main-header__logo {
+    padding-top: 5px;
+  }
 }
 
 // desktop-version
 @media (min-width: $desktop-width) {
   .main-header {
-    padding: 22px 40px;
+    padding: 0 40px;
     max-width: 1440px;
   }
 }

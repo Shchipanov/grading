@@ -94,6 +94,10 @@
 
 // mobile-only-version
 @media (max-width: $mobile-width-only) {
+  .pagination {
+    padding-bottom: 42px;
+  }
+
   .pagination__span {
     display: none;
   }

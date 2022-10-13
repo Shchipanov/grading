@@ -77,6 +77,13 @@
   margin: 0;
 }
 
+// mobile-only-version
+@media (max-width: $mobile-width-only) {
+  .features {
+    margin-bottom: 28px;
+  }
+}
+
 // tablet-version
 @media (min-width: $tablet-width) {
   .features {

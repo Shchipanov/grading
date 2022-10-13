@@ -1,5 +1,9 @@
 @import "./global/variables.scss";
 
+.site-list__item {
+  display: contents;
+}
+
 // mobile-only-version
 @media (max-width: $mobile-width-only) {
   .site-list__item a {
